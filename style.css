@@ -1,0 +1,25 @@
+body {
+  background-color: LightBlue;
+  color:  DarkSlateBlue;
+  font-family: 'Vollkorn', serif;
+}
+
+h1{
+  color: Blue;
+  tect-align: center;
+}
+
+header {
+  background-color:Brown;
+  color:White;
+}
+
+section {
+  background-color: Purple;
+  color:White;
+}
+
+footer {
+  background-color: Black;
+  color: White;
+}
