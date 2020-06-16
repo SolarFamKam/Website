@@ -1,5 +1,7 @@
 /*  Website Styles */
 
+/* I stil have no idea what I am doing. Fake it 'till you make it */'
+
 * {
   font-size: 100%;
 }
@@ -8,14 +10,62 @@ body {
   background-color: #fafff8;
   color:  Black;
   font-family: 'Vollkorn', serif;
+  font -size: 14px;
 }
+
+/*  Heading styles */
 
 h1{
   color: #fafff8;
   color: Black;
+  font-size: 36px;
+  text-align: center;
 }
 
-header {
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  font-style:italic;
+}
+
+p {
+  line-height: 2;
+  text-align: justify;
+}
+
+/* a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+} */
+
+a:link,
+a:focus,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: grey;
+}
+
+header h1 {
   background-color:#fafff8;
   color:Black;
 }
