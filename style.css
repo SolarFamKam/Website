@@ -1,25 +1,31 @@
+/*  Website Styles */
+
+* {
+  font-size: 100%;
+}
+
 body {
-  background-color: LightBlue;
-  color:  DarkSlateBlue;
+  background-color: #fafff8;
+  color:  Black;
   font-family: 'Vollkorn', serif;
 }
 
 h1{
-  color: Blue;
-  tect-align: center;
+  color: #fafff8;
+  color: Black;
 }
 
 header {
-  background-color:Brown;
-  color:White;
+  background-color:#fafff8;
+  color:Black;
 }
 
 section {
-  background-color: Purple;
-  color:White;
+  background-color: #fafff8;
+  color:Black;
 }
 
 footer {
-  background-color: Black;
-  color: White;
+  background-color: #fafff8;
+  color: Black;
 }
