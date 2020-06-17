@@ -2,20 +2,30 @@
 
 /* I stil have no idea what I am doing. Fake it 'till you make it */'
 
+
 * {
   font-size: 100%;
+  border: 1px solid red;
+  margin: 0;
+  line-height: 1;
 }
 
 body {
-  background-color: #fafff8;
+  background-color: #fafff;
   color:  Black;
   font-family: 'Vollkorn', serif;
-  font -size: 14px;
+  font-size: 14px;
+  margin: 50px;
 }
 
 /*  Heading styles */
 
-h1{
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+h1 {
   color: #fafff8;
   color: Black;
   font-size: 36px;
@@ -38,6 +48,21 @@ h1, h2, h3 {
 p {
   line-height: 2;
   text-align: justify;
+  margin: 15px 0;
+}
+
+/* footer p {
+  font-size: 10px;
+  text-align: center;
+} */
+
+header {
+  background-color: DimGrey;
+  color: White;
+}
+
+ul, ol {
+  margin: 15px 0;
 }
 
 /* a {
@@ -45,7 +70,7 @@ p {
   text-decoration: none;
 }
 
-a:hover {
+a: hover {
   color: blue;
   text-decoration: underline;
 } */
@@ -68,14 +93,36 @@ a:visited {
 header h1 {
   background-color:#fafff8;
   color:Black;
+  text-align: center;
+  border-bottom: 5px solid grey;
 }
 
 section {
   background-color: #fafff8;
   color:Black;
+  border: 1px dashed red;
+  margin: 30px;
+  padding: 30px;
 }
 
 footer {
   background-color: #fafff8;
   color: Black;
+}
+
+header,
+section,
+footer {
+  padding: 30px;
+}
+
+.block {
+  border-bottom: 5px solid green;
+}
+
+/* This code generates a shadow */
+.shadow {
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(145,173,147,1);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(145,173,147,1);
+  box-shadow: 0px 5px 10px 0px rgba(145,173,147,1);
 }
