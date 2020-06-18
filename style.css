@@ -38,18 +38,19 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 28px;
+  text-align: center;
 }
 
 h1, h2, h3 {
   font-weight: bold;
   font-family: 'Vollkorn', serif;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /* content font and link styles*/
@@ -104,14 +105,14 @@ header h1 {
   background-color: #fafff8;
   color: Black;
   text-align: center;
-  border-bottom: 4px solid grey;
+  border-top: 4px solid grey;
 }
 
 section {
   background-color: #fafff8;
   color: Black;
   /* border: 1px dashed red; */
-  margin: 30px;
+  margin: 5px;
   padding: 30px;
 }
 
@@ -141,6 +142,18 @@ footer {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.justify {
+  text-align: justify;
+}
+
 .container {
   max-width: 700px;
   margin: 0 auto;
@@ -148,7 +161,11 @@ footer {
 
 .banner {
   height: 350px;
-  background-image: url(Images/solar3.png);
-  background-size: ;
+  background-image: url(Images/kameast.jpg);
+  background-size: cover;
   background-position: center;
+}
+
+.Image {
+  align: center;
 }
