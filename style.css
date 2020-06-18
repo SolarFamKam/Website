@@ -5,31 +5,34 @@
 
 * {
   font-size: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0;
   line-height: 1;
 }
 
 body {
-  background-color: #fafff;
+  background-color: #fafff8;
   color:  Black;
   font-family: 'Vollkorn', serif;
   font-size: 14px;
   margin: 50px;
+  background-image: url(Images/geometric-leaves.png)
 }
 
 /*  Heading styles */
 
 .title {
   font-size: 48px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: black;
 }
 
 h1 {
-  color: #fafff8;
+  background-color: #fafff8;
   color: Black;
   font-size: 36px;
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 h2 {
@@ -42,8 +45,12 @@ h3 {
 
 h1, h2, h3 {
   font-weight: bold;
-  font-style:italic;
+  font-family: 'Vollkorn', serif;
+  color: black;
+  margin-bottom: 20px;
 }
+
+/* content font and link styles*/
 
 p {
   line-height: 2;
@@ -57,7 +64,7 @@ p {
 } */
 
 header {
-  background-color: DimGrey;
+  background-color: #fafff8;
   color: White;
 }
 
@@ -78,12 +85,13 @@ a: hover {
 a:link,
 a:focus,
 a:active {
-  color: red;
+  color: grey;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+  color: grey;
 }
 
 a:visited {
@@ -91,16 +99,16 @@ a:visited {
 }
 
 header h1 {
-  background-color:#fafff8;
-  color:Black;
+  background-color: #fafff8;
+  color: Black;
   text-align: center;
-  border-bottom: 5px solid grey;
+  border-bottom: 4px solid grey;
 }
 
 section {
   background-color: #fafff8;
-  color:Black;
-  border: 1px dashed red;
+  color: Black;
+  /* border: 1px dashed red; */
   margin: 30px;
   padding: 30px;
 }
@@ -117,7 +125,7 @@ footer {
 }
 
 .block {
-  border-bottom: 5px solid green;
+  border-bottom: 4px solid grey;
 }
 
 /* This code generates a shadow */
@@ -125,4 +133,20 @@ footer {
   -webkit-box-shadow: 0px 5px 10px 0px rgba(145,173,147,1);
   -moz-box-shadow: 0px 5px 10px 0px rgba(145,173,147,1);
   box-shadow: 0px 5px 10px 0px rgba(145,173,147,1);
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(Images/banner.jpeg);
+  background-size: cover;
+  background-position: center;
 }
