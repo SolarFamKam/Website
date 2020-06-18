@@ -8,6 +8,7 @@
   /* border: 1px solid red; */
   margin: 0;
   line-height: 1;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,7 +17,8 @@ body {
   font-family: 'Vollkorn', serif;
   font-size: 14px;
   margin: 50px;
-  background-image: url(Images/geometric-leaves.png)
+  background-image: url(Images/geometric-leaves.png);
+  background-repeat: repeat;
 }
 
 /*  Heading styles */
@@ -146,7 +148,7 @@ footer {
 
 .banner {
   height: 350px;
-  background-image: url(Images/banner.jpeg);
-  background-size: cover;
+  background-image: url(Images/solar3.png);
+  background-size: ;
   background-position: center;
 }
