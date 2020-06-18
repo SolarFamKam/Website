@@ -46,6 +46,14 @@ h3 {
   text-align: center;
 }
 
+h3 a {
+  margin: 0 10px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
 h1, h2, h3 {
   font-weight: bold;
   font-family: 'Vollkorn', serif;
@@ -168,4 +176,19 @@ footer {
 
 .Image {
   align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 25%;
+  /* padding:4px; */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
