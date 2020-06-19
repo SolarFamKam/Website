@@ -15,7 +15,7 @@ body {
   background-color: #fafff8;
   color:  Black;
   font-family: 'Vollkorn', serif;
-  font-size: 14px;
+  font-size: 18px;
   margin: 50px;
   background-image: url(Images/geometric-leaves.png);
   background-repeat: repeat;
@@ -52,6 +52,11 @@ h3 a {
 
 h4 {
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+h5 {
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -130,9 +135,12 @@ footer {
 }
 
 header,
-section,
-footer {
+section {
   padding: 30px;
+}
+
+footer {
+  padding: 4px;
 }
 
 .block {
@@ -168,7 +176,7 @@ footer {
 }
 
 .banner {
-  height: 350px;
+  height: 150px;
   background-image: url(Images/kameast.jpg);
   background-size: cover;
   background-position: center;
