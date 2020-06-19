@@ -1,6 +1,7 @@
 /*  Website Styles */
 
-/* I stil have no idea what I am doing. Fake it 'till you make it */'
+/* I stil have no idea what I am doing. Fake it 'till you make it */
+/* Correction: I kind of know what I am doing now! */
 
 
 * {
@@ -131,7 +132,9 @@ section {
 
 footer {
   background-color: #fafff8;
-  color: Black;
+  color: grey;
+  margin: 5px;
+  padding: 10px;
 }
 
 header,
