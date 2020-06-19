@@ -200,3 +200,8 @@ footer {
   width: 100%;
   height: auto;
 }
+
+header .media-icon {
+  color: grey;
+  font-size:30px;
+}
